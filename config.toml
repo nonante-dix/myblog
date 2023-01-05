@@ -1,9 +1,9 @@
 baseURL = "https://hugo-paper.vercel.app/"
 # title = "Hugo Themes"
 author = "Steve Francia"
-copyright = "Copyright © 2008–2019, Steve Francia and the lee.so; all rights reserved."
+copyright = "Copyright © 2023, Nonante-Dix Studio; all rights reserved."
 paginate = 3
-languageCode = "en"
+languageCode = "fr"
 DefaultContentLanguage = "en"
 enableInlineShortcodes = true
 # prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
@@ -12,18 +12,18 @@ ignoreErrors = ["error-remote-getjson"]
 
 # ------------------------------
 theme = "hugo-paper"
-title = "Paper"
+title = "Alaoui"
 
 [params]
   color = 'linen'
 
-  twitter = 'nanxiaobei'
-  github = 'nanxiaobei'
-  instagram = 'nan.xiaobei'
+  twitter = ''
+  github = 'nonante-dix'
+  instagram = ''
 
-  avatar = 'nanxiaobei@gmail.com'
-  name = 'Lee'
-  bio = 'Discover fresh context'
+  avatar = 'mohammed@alaoui.be'
+  name = 'Alaoui'
+  bio = 'Friend, associate or colleague'
 
 # ------------------------------
 
