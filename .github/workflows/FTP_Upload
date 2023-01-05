@@ -1,0 +1,15 @@
+name: FTP Upload
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: FTP Upload
+        uses: SamKirkland/FTP-Deploy-Action@3.1.1
+        with:
+          ftp-server: alaoui.be
+          ftp-username: ac3et_blog
+          ftp-password: ${{ secrets.FTP_PASSWORD }}
+          remote-dir: /
